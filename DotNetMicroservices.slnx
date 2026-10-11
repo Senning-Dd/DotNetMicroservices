@@ -1,0 +1,69 @@
+<Solution>
+  <Folder Name="/eureka-server/">
+    <File Path="../Downloads/Compressed/eureka-server/build.gradle" />
+    <File Path="../Downloads/Compressed/eureka-server/Dockerfile" />
+    <File Path="../Downloads/Compressed/eureka-server/gradlew" />
+    <File Path="../Downloads/Compressed/eureka-server/gradlew.bat" />
+  </Folder>
+  <Folder Name="/postgres/">
+    <File Path="../Downloads/Compressed/postgres/createdatabases.sql" />
+    <File Path="../Downloads/Compressed/postgres/Dockerfile" />
+  </Folder>
+  <Folder Name="/scripts/">
+    <File Path="../Downloads/Compressed/scripts/app-build.sh" />
+    <File Path="../Downloads/Compressed/scripts/app-down.sh" />
+    <File Path="../Downloads/Compressed/scripts/app-logs.sh" />
+    <File Path="../Downloads/Compressed/scripts/app-run.sh" />
+    <File Path="../Downloads/Compressed/scripts/app.yml" />
+    <File Path="../Downloads/Compressed/scripts/build-without-tests.bat" />
+    <File Path="../Downloads/Compressed/scripts/build-without-tests.sh" />
+    <File Path="../Downloads/Compressed/scripts/build.bat" />
+    <File Path="../Downloads/Compressed/scripts/build.sh" />
+    <File Path="../Downloads/Compressed/scripts/infra-build.sh" />
+    <File Path="../Downloads/Compressed/scripts/infra-down.sh" />
+    <File Path="../Downloads/Compressed/scripts/infra-logs.sh" />
+    <File Path="../Downloads/Compressed/scripts/infra-run.sh" />
+    <File Path="../Downloads/Compressed/scripts/infra.yml" />
+    <File Path="../Downloads/Compressed/scripts/rabbitmq-isolated.conf" />
+  </Folder>
+  <Folder Name="/Services/">
+    <Project Path="AuthService.Api/AuthService.Api.csproj" Id="441193a1-45c7-470e-a77d-13ff2146b944" />
+    <Project Path="AuthService/AuthService.csproj" Id="3b082e48-dd6f-4fb5-9e2a-b78c369aba23" />
+    <Project Path="ChatService.Api/ChatService.Api.csproj" Id="df3b3972-3b66-49f2-922c-be2916f31c06" />
+    <Project Path="ChatService.Test/ChatService.Test.csproj" Id="0685e934-6cc0-4b76-a48e-4f5e6c137ff5" />
+    <Project Path="ChatService/ChatService.csproj" Id="c77f65d5-4783-4987-822a-e9d3ec5b6f0a" />
+    <Project Path="DocumentService.Api/DocumentService.Api.csproj" Id="a76b0f37-8119-4ceb-ac5e-9035fa48cb9c" />
+    <Project Path="DocumentService.Test/DocumentService.Test.csproj" Id="ef41ad4f-36b6-4f9b-b853-e5aa6c51e085" />
+    <Project Path="DocumentService/DocumentService.csproj" Id="78e1f33a-7cc1-4711-8729-7be954f2ea76" />
+    <Project Path="PaymentService.Test/PaymentService.Test.csproj" Id="a553530e-add8-4745-a80c-d79384b56cdc" />
+    <Project Path="PaymentService/PaymentService.csproj" Id="70aeefd3-e5ab-4676-a53f-d1dbf94c2c10" />
+    <Project Path="PolicySearchService.Api/PolicySearchService.Api.csproj" Id="9a24a734-7082-49c6-bf34-d1595632a562" />
+    <Project Path="PolicySearchService.Test/PolicySearchService.Test.csproj" Id="e6236c2a-7d44-47d7-b88f-f70fa4f1605e" />
+    <Project Path="PolicySearchService/PolicySearchService.csproj" Id="482499e6-f769-42fc-b5c0-f083bd188d76" />
+    <Project Path="PolicyService.Api/PolicyService.Api.csproj" Id="fac0fd44-5154-42e4-9d5f-ba2eb54b49f4" />
+    <Project Path="PolicyService.Test/PolicyService.Test.csproj" Id="00bae89e-3271-45b7-b711-26b75e1a1f87" />
+    <Project Path="PolicyService/PolicyService.csproj" Id="147b9cd7-339f-44c1-80f7-e173cb8bb4cd" />
+    <Project Path="PricingService.Api/PricingService.Api.csproj" Id="bef51b98-0334-4f0d-9dac-1d48577b6f27" />
+    <Project Path="PricingService.Test/PricingService.Test.csproj" Id="5204e122-b19e-4ef0-9c15-b8d6fa6bf9d1" />
+    <Project Path="PricingService/PricingService.csproj" Id="47989498-5ce2-42f8-adac-288fd573aa97" />
+    <Project Path="ProductService.Api/ProductService.Api.csproj" Id="803f0036-965d-45d2-851b-9f380d1dbccf" />
+    <Project Path="ProductService.Test/ProductService.Test.csproj" Id="efa433aa-39fb-49cc-a16a-0dad8ef582f3" />
+    <Project Path="ProductService/ProductService.csproj" Id="22a27949-f1a8-41b6-8b7d-1d7852743f6e" />
+    <Project Path="uthService.Test/AuthService.Test.csproj" Id="1d59ea09-6ea2-4c2a-80fe-a557270222bb" />
+  </Folder>
+  <Folder Name="/Web/">
+    <File Path="../Downloads/Compressed/Web/.dockerignore" />
+    <File Path="../Downloads/Compressed/Web/.env-example" />
+    <File Path="../Downloads/Compressed/Web/.gitignore" />
+    <File Path="../Downloads/Compressed/Web/babel.config.js" />
+    <File Path="../Downloads/Compressed/Web/Dockerfile" />
+    <File Path="../Downloads/Compressed/Web/nginx.conf" />
+    <File Path="../Downloads/Compressed/Web/package-lock.json" />
+    <File Path="../Downloads/Compressed/Web/package.json" />
+    <File Path="../Downloads/Compressed/Web/README.md" />
+    <File Path="../Downloads/Compressed/Web/yarn.lock" />
+  </Folder>
+  <Project Path="AgentPortalApiGateway/AgentPortalApiGateway.csproj" />
+  <Project Path="BlazorWasmClient/BlazorWasmClient.csproj" />
+  <Project Path="DashboardService.Api/DashboardService.Api.csproj" Id="9510ea5f-091f-4d59-a4b3-88279375a2bc" />
+</Solution>
