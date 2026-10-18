@@ -44,6 +44,7 @@
     <Project Path="PolicyService.Test/PolicyService.Test.csproj" Id="00bae89e-3271-45b7-b711-26b75e1a1f87" />
     <Project Path="PolicyService/PolicyService.csproj" Id="147b9cd7-339f-44c1-80f7-e173cb8bb4cd" />
     <Project Path="PricingService.Api/PricingService.Api.csproj" Id="bef51b98-0334-4f0d-9dac-1d48577b6f27" />
+    <Project Path="PricingService.IntegrationTest/PricingService.IntegrationTest.csproj" Id="d16d6dd3-c1a1-4a22-94e4-0ac500985b40" />
     <Project Path="PricingService.Test/PricingService.Test.csproj" Id="5204e122-b19e-4ef0-9c15-b8d6fa6bf9d1" />
     <Project Path="PricingService/PricingService.csproj" Id="47989498-5ce2-42f8-adac-288fd573aa97" />
     <Project Path="ProductService.Api/ProductService.Api.csproj" Id="803f0036-965d-45d2-851b-9f380d1dbccf" />
