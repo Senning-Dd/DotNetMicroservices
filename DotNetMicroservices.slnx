@@ -1,9 +1,13 @@
 <Solution>
   <Folder Name="/eureka-server/">
-    <File Path="../Downloads/Compressed/eureka-server/build.gradle" />
-    <File Path="../Downloads/Compressed/eureka-server/Dockerfile" />
-    <File Path="../Downloads/Compressed/eureka-server/gradlew" />
-    <File Path="../Downloads/Compressed/eureka-server/gradlew.bat" />
+    <File Path="eureka-server/build.gradle" />
+    <File Path="eureka-server/Dockerfile" />
+    <File Path="eureka-server/gradlew" />
+    <File Path="eureka-server/gradlew.bat" />
+    <File Path="eureka-server/gradle/wrapper/gradle-wrapper.jar" />
+    <File Path="eureka-server/gradle/wrapper/gradle-wrapper.properties" />
+    <File Path="eureka-server/src/main/java/net/chrisrichardson/microservices/eurekaserver/EurekaServer.java" />
+    <File Path="eureka-server/src/main/resources/application.yml" />
   </Folder>
   <Folder Name="/postgres/">
     <File Path="../Downloads/Compressed/postgres/createdatabases.sql" />
