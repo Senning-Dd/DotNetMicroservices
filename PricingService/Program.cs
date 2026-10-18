@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Steeltoe.Discovery.Client;
 
 namespace PricingService;
 
@@ -13,6 +14,6 @@ public static class Program
     public static IHostBuilder CreateWebHostBuilder(string[] args)
     {
         return Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(webHost => webHost.UseStartup<Startup>());
+            .ConfigureWebHostDefaults(webHost => webHost.UseStartup<Startup>().AddDiscoveryClient());
     }
 }

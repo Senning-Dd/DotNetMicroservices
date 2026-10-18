@@ -15,5 +15,7 @@ GRANT ALL PRIVILEGES ON DATABASE lab_netmicro_policy TO lab_user;
 --pricing
 CREATE DATABASE lab_netmicro_pricing;
 GRANT ALL PRIVILEGES ON DATABASE lab_netmicro_pricing TO lab_user;
+\connect lab_netmicro_pricing
+GRANT USAGE, CREATE ON SCHEMA public TO lab_user;
 
 

@@ -10,7 +10,7 @@ services:
 
   postgres:
     build: ../postgres
-    image: postgres
+    image: postgres:11.4
     container_name: postgres
     volumes:
       - /tmp/data/postgresql:/var/lib/postgresql/data
