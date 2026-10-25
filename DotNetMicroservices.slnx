@@ -32,6 +32,7 @@
   </Folder>
   <Folder Name="/Services/">
     <Project Path="AuthService.Api/AuthService.Api.csproj" Id="441193a1-45c7-470e-a77d-13ff2146b944" />
+    <Project Path="AuthService.Test/AuthService.Test.csproj" Id="1d59ea09-6ea2-4c2a-80fe-a557270222bb" />
     <Project Path="AuthService/AuthService.csproj" Id="3b082e48-dd6f-4fb5-9e2a-b78c369aba23" />
     <Project Path="ChatService.Api/ChatService.Api.csproj" Id="df3b3972-3b66-49f2-922c-be2916f31c06" />
     <Project Path="ChatService.Test/ChatService.Test.csproj" Id="0685e934-6cc0-4b76-a48e-4f5e6c137ff5" />
@@ -54,7 +55,6 @@
     <Project Path="ProductService.Api/ProductService.Api.csproj" Id="803f0036-965d-45d2-851b-9f380d1dbccf" />
     <Project Path="ProductService.Test/ProductService.Test.csproj" Id="efa433aa-39fb-49cc-a16a-0dad8ef582f3" />
     <Project Path="ProductService/ProductService.csproj" Id="22a27949-f1a8-41b6-8b7d-1d7852743f6e" />
-    <Project Path="uthService.Test/AuthService.Test.csproj" Id="1d59ea09-6ea2-4c2a-80fe-a557270222bb" />
   </Folder>
   <Folder Name="/Web/">
     <File Path="../Downloads/Compressed/Web/.dockerignore" />
