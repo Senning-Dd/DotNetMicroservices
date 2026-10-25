@@ -37,6 +37,9 @@
     <Project Path="ChatService.Api/ChatService.Api.csproj" Id="df3b3972-3b66-49f2-922c-be2916f31c06" />
     <Project Path="ChatService.Test/ChatService.Test.csproj" Id="0685e934-6cc0-4b76-a48e-4f5e6c137ff5" />
     <Project Path="ChatService/ChatService.csproj" Id="c77f65d5-4783-4987-822a-e9d3ec5b6f0a" />
+    <Project Path="DashboardService.Api/DashboardService.Api.csproj" Id="9510ea5f-091f-4d59-a4b3-88279375a2bc" />
+    <Project Path="DashboardService.Test/DashboardService.Test.csproj" />
+    <Project Path="DashboardService/DashboardService.csproj" />
     <Project Path="DocumentService.Api/DocumentService.Api.csproj" Id="a76b0f37-8119-4ceb-ac5e-9035fa48cb9c" />
     <Project Path="DocumentService.Test/DocumentService.Test.csproj" Id="ef41ad4f-36b6-4f9b-b853-e5aa6c51e085" />
     <Project Path="DocumentService/DocumentService.csproj" Id="78e1f33a-7cc1-4711-8729-7be954f2ea76" />
@@ -70,5 +73,4 @@
   </Folder>
   <Project Path="AgentPortalApiGateway/AgentPortalApiGateway.csproj" />
   <Project Path="BlazorWasmClient/BlazorWasmClient.csproj" />
-  <Project Path="DashboardService.Api/DashboardService.Api.csproj" Id="9510ea5f-091f-4d59-a4b3-88279375a2bc" />
 </Solution>

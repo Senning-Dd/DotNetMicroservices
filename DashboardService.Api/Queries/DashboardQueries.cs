@@ -1,22 +1,26 @@
 using DashboardService.Api.Queries.Dtos;
+using MediatR;
 
 namespace DashboardService.Api.Queries;
 
-public class GetTotalSalesQuery
+public class GetTotalSalesQuery : IRequest<GetTotalSalesResult>
 {
     public string ProductCode { get; set; }
     public DateTime SalesDateFrom { get; set; }
     public DateTime SalesDateTo { get; set; }
 }
 
-public class GetAgentsSalesQuery
+public class GetAgentsSalesQuery : IRequest<GetAgentsSalesResult>
 {
+    public string AgentLogin { get; set; }
+    public string ProductCode { get; set; }
     public DateTime SalesDateFrom { get; set; }
     public DateTime SalesDateTo { get; set; }
 }
 
-public class GetSalesTrendsQuery
+public class GetSalesTrendsQuery : IRequest<GetSalesTrendsResult>
 {
+    public string ProductCode { get; set; }
     public DateTime SalesDateFrom { get; set; }
     public DateTime SalesDateTo { get; set; }
     public TimeUnit Unit { get; set; }

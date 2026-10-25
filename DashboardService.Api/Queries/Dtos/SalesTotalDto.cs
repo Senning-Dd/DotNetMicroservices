@@ -8,6 +8,7 @@ public class SalesTotalDto
 
 public class PeriodSalesDto
 {
+    public DateTime PeriodDate { get; set; }
     public string Period { get; set; }
     public SalesTotalDto Sales { get; set; }
 }
